@@ -44,7 +44,7 @@
   ],
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/((?!assets/|api/|favicon|robots|sitemap).*)",
       "has": [
         {
           "type": "host",
