@@ -41,18 +41,5 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/((?!assets/|api/|favicon|robots|sitemap).*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.ugadmission.in"
-        }
-      ],
-      "destination": "https://ugadmission.in/:path*",
-      "permanent": true
-    }
   ]
 }
